@@ -1,0 +1,31 @@
+2015-07-14 14:13:10.580 (7584): -----------------------------------------------------------------------------
+2015-07-14 14:13:10.580 (7584): Initializing fault reporting
+2015-07-14 14:13:10.580 (7584): Fault reporting log pathname: C:\Users\pmathur15\PycharmProjects\untitled\tdeserver64-error00001e30.log
+2015-07-14 14:13:10.580 (7584): Initializing MiniDump
+2015-07-14 14:13:10.580 (7584): Loading 'DbgHelp.dll'
+2015-07-14 14:13:10.580 (7584): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2015-07-14 14:13:10.580 (7584):   Product Name: Microsoft® Windows® Operating System
+2015-07-14 14:13:10.580 (7584):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2015-07-14 14:13:10.580 (7584):   Product Version: 6.1.7601.17514
+2015-07-14 14:13:10.580 (7584): Finding function 'MiniDumpWriteDump'
+2015-07-14 14:13:10.581 (7584): Success
+2015-07-14 14:13:10.581 (7584): Registering unhandled exception filter
+2015-07-14 14:13:10.581 (7584): -----------------------------------------------------------------------------
+2015-07-14 14:13:10.581 (7584): Machine Configuration
+2015-07-14 14:13:10.581 (7584):   Max Descriptors: -1
+2015-07-14 14:13:10.582 (7584): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{BCFE312E-630C-44BF-AF89-D1DBD8CAF402}
+2015-07-14 14:13:10.582 (7584): tdeserver: accepting new connection
+2015-07-14 14:13:10.582 (10068): beginthread: recv, connection=tab.pipe://./pipe/{BCFE312E-630C-44BF-AF89-D1DBD8CAF402}
+2015-07-14 14:13:10.582 (7584): tdeserver: new connection, connection=tab.pipe://./pipe/{BCFE312E-630C-44BF-AF89-D1DBD8CAF402}
+2015-07-14 14:13:10.582 (5536): beginthread: send, connection=tab.pipe://./pipe/{BCFE312E-630C-44BF-AF89-D1DBD8CAF402}
+2015-07-14 14:13:10.582 (10068): tdeserver: open session, connection=tab.pipe://./pipe/{BCFE312E-630C-44BF-AF89-D1DBD8CAF402}, sess_guid=1
+2015-07-14 14:13:10.582 (8824): Session1: QueryExecute:
+2015-07-14 14:13:10.582 (8824): (create database "C:\\Users\\pmathur15\\PycharmProjects\\untitled\\PaymentType_CandidateCellPred_105365.tde")
+2015-07-14 14:13:12.426 (8824): Session1: QueryExecute: OK
+2015-07-14 14:13:12.427 (9348): Session1: QueryExecute:
+2015-07-14 14:13:12.427 (9348): (package)
+2015-07-14 14:13:12.428 (9348): PackageDatabase: in-place package of "C:\Users\pmathur15\PycharmProjects\untitled\PaymentType_CandidateCellPred_105365.tde"
+2015-07-14 14:13:12.437 (9348): PackageDatabase: finished
+2015-07-14 14:13:12.437 (9348): Session1: QueryExecute: OK
+2015-07-14 14:13:12.437 (10068): tdeserver: close session, connection=tab.pipe://./pipe/{BCFE312E-630C-44BF-AF89-D1DBD8CAF402}, sess_guid=1
+2015-07-14 14:13:12.437 (7584): tdeserver: exit (0)
